@@ -1,0 +1,17 @@
+.header {
+  height: 120px;
+  width: 90%;
+  border: 2px solid rgb(9, 2, 37);
+  border-radius: 10px;
+  margin: 10px auto;
+  display: flex;
+  background-color: rgb(117, 172, 235);
+  font-size: 30px;
+  color: rgb(53, 0, 177);
+  font-weight: bold;
+}
+
+.header-text {
+  align-self: center;
+  margin: auto;
+}

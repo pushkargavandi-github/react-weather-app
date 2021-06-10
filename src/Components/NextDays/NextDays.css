@@ -1,0 +1,54 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.day-parent {
+  display: flex;
+  flex-direction: column;
+}
+
+.day-of-week {
+  font-weight: 400;
+  font-size: 24px;
+  color: rgb(113, 114, 112);
+}
+
+.card-parent {
+  display: flex;
+  flex-wrap: wrap;
+  border: 1px solid grey;
+  flex-direction: row;
+  margin: 15px;
+}
+
+@media (max-width: 400px) {
+  .card-parent {
+    border: 1px solid grey;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.cards-list {
+  display: inline-flex;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 120px;
+  width: 120px;
+  margin: 10px;
+  font-size: 12px;
+  border: none;
+  background-color: rgb(126, 220, 241);
+}
+
+.details-button {
+  width: 90px;
+  background-color: rgb(243, 229, 192);
+  border: none;
+}

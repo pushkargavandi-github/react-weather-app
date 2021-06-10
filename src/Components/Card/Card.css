@@ -1,0 +1,48 @@
+.custom-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 175px;
+  height: auto;
+  /* border: 1px solid rgb(104, 204, 221); */
+  border-radius: 3px;
+  margin: 10px;
+  /* background-color: rgb(223, 231, 255); */
+  font-size: 16px;
+}
+
+.custom-card:hover {
+  background-color: rgb(126, 220, 241);
+}
+
+.card-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.card-link:hover {
+  color: rgb(44, 43, 145);
+}
+
+.temperature {
+  /*  height: 50px; */
+  margin-top: 20px;
+  /* font-weight: 600; */
+}
+
+.button {
+  margin-bottom: 10px;
+  margin-top: 10px;
+  width: 90px;
+  font-size: 10px;
+  align-self: center;
+  justify-self: flex-end;
+}
+
+.button:hover {
+  cursor: pointer;
+}
+
+.perception {
+  margin-bottom: 10px;
+}
