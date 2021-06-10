@@ -31,3 +31,14 @@
   justify-content: center;
   align-items: center;
 }
+
+.back-to-home {
+  align-self: flex-start;
+  width: 120px;
+}
+
+.back-to-home-button {
+  background-color: rgb(124, 210, 230);
+  border: none;
+  border-radius: 5px;
+}
