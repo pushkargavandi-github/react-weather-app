@@ -7,7 +7,7 @@
  
 ## Application details
 
-The application gives us forecast for current day and next four days on the home page. If user clicks on check details, user is redirected to details page.
+The application is a reponsive site which gives us forecast for current day and next four days on the home page. If user clicks on check details, user is redirected to details page.
 The details page gives forecats of various parameters like high/low for the day, visibility, cloudiness, humidity.
  
 ## Scope
