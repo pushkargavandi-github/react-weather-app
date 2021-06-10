@@ -44,6 +44,11 @@ const Details = (props) => {
         <div className="tile">Visibility(kms): {details.visibility / 1000}</div>
         <div className="tile">Wind speed(metres/sec): {details.wind.speed}</div>
       </div>
+      <div className="back-to-home">
+        <Link to="/">
+          <button className="back-to-home-button">Back to Home page..</button>
+        </Link>
+      </div>
     </div>
   );
 };
