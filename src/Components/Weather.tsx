@@ -13,7 +13,7 @@ const Weather = () => {
   React.useEffect(() => {
     async function fetchData() {
       let res = await fetch(
-        `http://api.openweathermap.org/data/2.5/forecast?q=mumbai&appid=8492977d99f7921346f9b92524744b4a&units=metric&cnt=40`
+        `https://api.openweathermap.org/data/2.5/forecast?q=mumbai&appid=8492977d99f7921346f9b92524744b4a&units=metric&cnt=40`
       );
       let result = await res.json();
       setLocation(result.city);
