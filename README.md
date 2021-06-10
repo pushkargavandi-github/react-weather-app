@@ -1,3 +1,24 @@
+# Weather App
+ github link: https://github.com/pushkargavandi-github/react-weather-app
+ 
+ deployed application link: https://gracious-murdock-76060b.netlify.app/
+ 
+ The application is deployed using [netlify](https://www.netlify.com/)
+ 
+## Application details
+
+The application gives us forecast for current day and next four days on the home page. If user clicks on check details, user is redirected to details page.
+The details page gives forecats of various parameters like high/low for the day, visibility, cloudiness, humidity.
+ 
+## Scope
+
+At this moment, our application gives us the forecast for Mumbai location only and gives us details in English language only.
+In upcoming releases, users will be able to select location and get forecast in language of choice.          
+
+# Getting Started
+To set up the project repo, make sure you have [node](http://nodejs.org/) installed.
+Once you do, simply run npm i in the project directory to install all required project dependencies locally. 
+ 
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
